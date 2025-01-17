@@ -48,6 +48,13 @@ main {
     opacity: 0.5;
 }
 
+.material-symbols-rounded {
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    cursor: pointer;    
+}
+
 @media screen and (max-width: 1000px) {
     .navbar-right {
         position: fixed;
