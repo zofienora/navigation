@@ -61,4 +61,20 @@ main {
         border-left: 1px solid black;
         opacity: 0.8;
     }
+    .flex {
+        flex-direction: column;
+        justify-content: flex-start;
+      
+    }
+    .list-item + .list-item {
+        padding-left: 2em;
+    }
+
+    .list-item {
+        padding: 2em;
+        padding-left: 2em;
+        font-weight: 900;
+    }
+
+    
 }
