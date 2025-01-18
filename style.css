@@ -55,6 +55,20 @@ main {
     cursor: pointer;    
 }
 
+#open-sidebar-button {
+    border:none;
+    cursor: pointer;
+}
+
+#close-sidebar-button {
+    background-color: transparent;
+    border: none;
+    padding: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 1000px) {
     .navbar-right {
         position: fixed;
@@ -87,6 +101,7 @@ main {
         padding-left: 2em;
         font-weight: 900;
     }
+
 
     
 }
