@@ -53,11 +53,13 @@ main {
     top: 1%;
     right: 10%;
     cursor: pointer;    
+    display: none;
 }
 
 #open-sidebar-button {
     border:none;
     cursor: pointer;
+    display: none;
 }
 
 #close-sidebar-button {
@@ -66,10 +68,15 @@ main {
     padding: 1em;
     font-size: 1.5em;
     cursor: pointer;
+    display: none;
 }
 
 
 @media screen and (max-width: 1000px) {
+.material-symbols-rounded, #close-sidebar-button, #open-sidebar-button {
+    display:block;
+}
+
     .navbar-right {
         position: fixed;
         top: 0;
