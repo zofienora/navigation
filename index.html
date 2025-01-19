@@ -10,21 +10,20 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
-        <nav>
-            <div class="container-global navigation flex flexmedia">
-                <h2>norakeil</h2>
-                <ul class="flex navbar-right" id="navbar-right">
-                    <li><button id="close-sidebar-button" onclick="closeSidebar()">X</button></li>
-                    <li class="list-item"><a class="link" href="#">Home</a></li>
-                    <li class="list-item"><a class="link" href="#">Contact</a></li>
-                    <li class="list-item"><a class="link" href="#">Work</a></li>
-                    <li class="list-item"><a class="link" href="#">Journal</a></li>
-                </ul>
-                <button id="open-sidebar-button" onclick="openSidebar()"><span class="material-symbols-rounded" style="font-size: 40px; color: black;">menu</span></button>
-
-            </div>
-        </nav>
+    <nav>
+        <div class="container-global navigation flex flexmedia">
+            <h2>norakeil</h2>
+            <ul class="flex navbar-right" id="navbar-right">
+                <li><button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close navigation sidebar">X</button></li>
+                <li class="list-item"><a class="link" href="#">Home</a></li>
+                <li class="list-item"><a class="link" href="#">Contact</a></li>
+                <li class="list-item"><a class="link" href="#">Work</a></li>
+                <li class="list-item"><a class="link" href="#">Journal</a></li>
+            </ul>
+            <button id="open-sidebar-button" onclick="openSidebar()" aria-label="opening navigation sidebar" aria-expanded="false" aria-controls="navbar-right"><span class="material-symbols-rounded" style="font-size: 40px; color: black;">menu</span></button>
+            <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+        </div>
+    </nav>
     <main>
         <div class="container-global maincontent">
             <h1>This is my coding example for a navigation bar</h1>
